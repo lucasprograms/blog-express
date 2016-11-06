@@ -1,7 +1,7 @@
 # helper for application.html (and others?)
 module ApplicationHelper
   def full_title(page_title = '')
-    base_title = 'Blogex.press'
+    base_title = 'blogex.press'
     if page_title.empty?
       base_title
     else
